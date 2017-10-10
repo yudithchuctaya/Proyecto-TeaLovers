@@ -236,14 +236,17 @@ header #fondo {
     #section-5 #fondo .text p {
       font-family: 'Raleway', sans-serif; }
 
-#section-6 {
-  background: red; }
+#section-6 #imagen1 {
+  background: #f4f0bb;
+  margin-left: 5%; }
 
-#section-7 {
-  background: pink; }
+#section-7 #imagen2 {
+  background: #8EC641;
+  margin-left: 5%; }
 
-#section-8 {
-  background: green; }
+#section-8 #imagen3 {
+  background: #f4a19a;
+  margin-left: 5%; }
 
 #section-9 .image {
   width: 100%;
