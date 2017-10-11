@@ -157,8 +157,16 @@ Código Hexadecimal gris footer: #3B3B3B
 		//////////////////////////////////6////////////////////////////////////
 		#section-6{
               .text{
-              	margin-top:16%;
+              	// margin-top:16%;
               	text-align:center;
+              }
+              .color1{
+              	background:#f4f0bb;
+              	height:20vh;
+              }
+                .colorInicio{
+              	background:#8EC641;
+              	height:20vh;
               }
          
 	         #imagen1{
@@ -170,8 +178,12 @@ Código Hexadecimal gris footer: #3B3B3B
 		#section-7{
 			.text{
 				text-align:center;
-				margin-top:20%;
+				// margin-top:20%;
 			}
+		.color2{
+			background:#f4a19a;
+			height:20vh;
+		}
 		   #imagen2{
 		   		background:#8EC641;
 		   	
@@ -181,8 +193,12 @@ Código Hexadecimal gris footer: #3B3B3B
 		//////////////////////////////////8////////////////////////////////////
 		#section-8{
 		    .text{
-		    	margin-top:20%;
+		    	// margin-top:20%;
 		    	text-align:center;
+		    }
+		    .color3{
+		        background:#8EC641;
+		    	height:20vh;
 		    }
 			
 			#imagen3{

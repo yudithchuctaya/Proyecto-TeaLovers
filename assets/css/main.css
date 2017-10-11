@@ -234,21 +234,30 @@ header #fondo {
       margin-top: 20%; }
 
 #section-6 .text {
-  margin-top: 16%;
   text-align: center; }
+#section-6 .color1 {
+  background: #f4f0bb;
+  height: 20vh; }
+#section-6 .colorInicio {
+  background: #8EC641;
+  height: 20vh; }
 #section-6 #imagen1 {
   background: #f4f0bb;
   margin-top: -2%; }
 
 #section-7 .text {
-  text-align: center;
-  margin-top: 20%; }
+  text-align: center; }
+#section-7 .color2 {
+  background: #f4a19a;
+  height: 20vh; }
 #section-7 #imagen2 {
   background: #8EC641; }
 
 #section-8 .text {
-  margin-top: 20%;
   text-align: center; }
+#section-8 .color3 {
+  background: #8EC641;
+  height: 20vh; }
 #section-8 #imagen3 {
   background: #f4a19a; }
 
