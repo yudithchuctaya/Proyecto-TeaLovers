@@ -8,6 +8,7 @@ Código Hexadecimal gris footer: #3B3B3B
 		margin:0px;
 }
 @import "parciales/_menu.scss";
+     //////////////////////////////////1////////////////////////////////////
 
 		#section-1{
 			iframe{
@@ -17,7 +18,7 @@ Código Hexadecimal gris footer: #3B3B3B
 				margin-left:3px;
 			}
          }
-
+     //////////////////////////////////2////////////////////////////////////
 		#section-2{
 			.image{
 				width: 100%;
@@ -45,6 +46,7 @@ Código Hexadecimal gris footer: #3B3B3B
 				
 				.text{
 					margin-left:25%;
+					text-align:center;
 					margin-top: 10%;
 					.text-bunny{
 					color: #fff;
@@ -59,11 +61,7 @@ Código Hexadecimal gris footer: #3B3B3B
 
 		}
 
-
-
-
-
-
+  /////////////////////////////////3////////////////////////////////////
 		#section-3{
 			background:#fff;
 			color:black;
@@ -71,7 +69,7 @@ Código Hexadecimal gris footer: #3B3B3B
 				// margin-left:10%;
 
 				.caption{
-					margin:10%;
+					// margin-left:10%;
 					h2{
 					  font-size:40px;
 					  color:pink;	
@@ -81,11 +79,7 @@ Código Hexadecimal gris footer: #3B3B3B
 			}
 		}
 
-
-
-
-
-
+    //////////////////////////////////4////////////////////////////////////
 		#section-4{
 		margin-left:1%;
 
@@ -123,29 +117,26 @@ Código Hexadecimal gris footer: #3B3B3B
 			}
 	
 		}
-
-
-
+    //////////////////////////////////5////////////////////////////////////
 
 	#section-5{
 
-			.image{
-				width: 100%;
-				height: 500vh;
+			#imagen{
+				width: 99%;
+				height: 100vh;
 				background-image: url("../img/parallax-2.jpg");
 				background-repeat: no-repeat;
 			    background-size: cover;
 			    background-position: center top;
 			    margin-left:0.3%;
-			    margin-top:-3%;
+			   
 			   
 			}
-			#fondo{
+			#caption{
 				
 				width:100%;
 				height:100vh;
 				text-align: center;
-				// margin-left:8%;
 				color:#fff;
 				margin-top:2.5%;
 				font-size:20px;
@@ -154,38 +145,52 @@ Código Hexadecimal gris footer: #3B3B3B
 				.text{
 					margin-left:25%;
 					margin-top: 10%;
-					.text-bunny{
-					color: #fff;
-					font-size:60px;
-				    }
-				    p{
-				    font-family: 'Raleway', sans-serif;
-				    
-				     }
+
+						.text-bunny{
+						color: #fff;
+						font-size:60px;
+						margin-top:20%;
+					    }
 				 }
 			 }
 		}
+		//////////////////////////////////6////////////////////////////////////
 		#section-6{
+              .text{
+              	margin-top:16%;
+              	text-align:center;
+              }
          
 	         #imagen1{
 	         	background:#f4f0bb;
-	         	margin-left:5%;
+	         	margin-top:-2%;
 	         }
 		}
+		//////////////////////////////////7////////////////////////////////////
 		#section-7{
+			.text{
+				text-align:center;
+				margin-top:20%;
+			}
 		   #imagen2{
 		   		background:#8EC641;
-		   		margin-left:5%;
+		   	
 		   }
 
 		}
+		//////////////////////////////////8////////////////////////////////////
 		#section-8{
+		    .text{
+		    	margin-top:20%;
+		    	text-align:center;
+		    }
 			
 			#imagen3{
 				background:#f4a19a;
-				margin-left:5%;
+				
 			}
 		}
+		//////////////////////////////////9///////////////////////////////////////
 		#section-9{
 			.image{
 				width: 100%;
@@ -221,9 +226,33 @@ Código Hexadecimal gris footer: #3B3B3B
 			 }
 			
 		}
-		#section-10{
+		////////////////////////////////11///////////////////////////////////////////////
+		#section-11{
+			#icono{
+			  
+			    margin-left:14%;
+
+			}
+			.paquete{
+				width: 100%;
+				height: 100vh;
+				background-image: url("../img/paquete.png");
+				background-repeat: no-repeat;
+			    background-size: 80%;
+			    background-position: center top;
+			    margin-left:0.3%;
+			}
 			
 		}
-				
+		//////////////////////////////////footer////////////////////////////////////
+		footer{
+			background: #3B3B3B;
+			color:#d6d2d2;
+			margin-top:-9%;
+			p{
+				margin-top:5%;
+				font-family:cursive;
+			}
+		}		
 		
 	
