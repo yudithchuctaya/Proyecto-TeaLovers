@@ -6,11 +6,13 @@ Código Hexadecimal gris footer: #3B3B3B
 *{
 		padding:0px;
 		margin:0px;
+		// overflow:auto;
 }
 @import "parciales/_menu.scss";
+
      //////////////////////////////////1////////////////////////////////////
 
-		#section-1{
+    #section-1{
 			iframe{
 				width: 100%;
 				height: 100vh;
@@ -19,7 +21,7 @@ Código Hexadecimal gris footer: #3B3B3B
 			}
          }
      //////////////////////////////////2////////////////////////////////////
-		#section-2{
+	#section-2{
 			.image{
 				width: 100%;
 				height: 100vh;
@@ -28,8 +30,7 @@ Código Hexadecimal gris footer: #3B3B3B
 			    background-size: cover;
 			    background-position: center top;
 			    margin-left:0.3%;
-			    margin-top:-3%;
-			   
+			    margin-top:-3%; 
 			}
 
 
@@ -45,7 +46,7 @@ Código Hexadecimal gris footer: #3B3B3B
 				font-family: 'Raleway', sans-serif;
 				
 				.text{
-					margin-left:25%;
+					// margin-left:25%;
 					text-align:center;
 					margin-top: 10%;
 					.text-bunny{
@@ -62,11 +63,12 @@ Código Hexadecimal gris footer: #3B3B3B
 		}
 
   /////////////////////////////////3////////////////////////////////////
-		#section-3{
+	#section-3{
+			width:100%;
 			background:#fff;
 			color:black;
 			#text-concept{
-				// margin-left:10%;
+				text-align:center	;
 
 				.caption{
 					// margin-left:10%;
@@ -80,65 +82,156 @@ Código Hexadecimal gris footer: #3B3B3B
 		}
 
     //////////////////////////////////4////////////////////////////////////
-		#section-4{
-		margin-left:1%;
 
-			.imagen1{
-				width: 55%;
+    #section-4{
+	
+       margin-top:4%;
+
+		.imagen1{
+				width: 108%;
 				height: 100vh;
 				background-image: url("../img/min-video-1-2.jpg");
 				background-repeat: no-repeat;
 			    background-size: cover;
-			    background-position: center top;
+			    background-position: center;
 			   
-			 }
-			#fondo{
-				background:rgba(32,23,3,0.6);
-				width:100%;
-				height:100vh;
-				text-align: center;
-				color:#fff;
-				font-size:20px;
-				font-family: 'Raleway', sans-serif;
-				
-				.text{
-					margin-left:25%;
-					margin-top: 10%;
-					.text-bunny{
-					color: #fa7673;
-					font-size:70px;
-				    }
-				    p{
-				    	font-family: 'Raleway', sans-serif;
-				    	font-size:30px;
-				    }
+			 	#fondo1{
+					    background:rgba(32,23,3,0.6);
+						width:100%;
+						height:100vh;
+						text-align: center;
+						color:#fff;
+						font-size:20px;
+						font-family: 'Raleway', sans-serif;
+						
+					.text{
+						margin-left:25%;
+						margin-top: 50%;
+						.text-bunny{
+						color: #fa7673;
+						font-size:70px;
+					    }
+					    p{
+					    	font-family: 'Raleway', sans-serif;
+					    	font-size:30px;
+					    }
 
-				}
+					}
+			     }
+			   
+		      }
+
+			//////////////////////image2/////////////////
+	.imagen2{
+				width: 118%;
+				height:50vh;
+				background-image: url("../img/min-video-3.jpg");
+				background-repeat: no-repeat;
+			    background-size: 140%;
+			    background-position: center;
+			    overflow:hidden	;
+					 #fondo2{
+						background:rgba(32,23,3,0.6);
+						width:100%;
+						height:50vh;
+						text-align: center;
+						color:#fff;
+						font-family: 'Raleway', sans-serif;
+						
+						.text{
+							text-align:center;
+							margin-top: 50%;
+						    p{
+						    	font-family: 'Raleway', sans-serif;
+						    	font-size:16px;
+						    }
+
+						}
+					}
+			 }
+
+			////////////////image3/////////////////////
+			.imagen3{
+				width: 118%;
+				height: 50vh;
+				background-image: url("../img/min-video-5.jpg");
+				background-repeat: no-repeat;
+			    background-size: 140%;
+			    background-position: center;
+			    overflow:hidden	;
+					   #fondo3{
+						background:rgba(32,23,3,0.6);
+						width:100%;
+						height:50vh;
+						text-align: center;
+						color:#fff;	
+						font-family: 'Raleway', sans-serif;
+						
+						.text{
+							text-align:center;
+							margin-top: 50%;
+
+						    p{
+						    	font-family: 'Raleway', sans-serif;
+						    	font-size:16px;
+						    }
+
+						}
+					   
+					 }
 			}
-	
+			//////////////image4//////////////////////////
+			.imagen4{
+				width:108.5%;
+				height:100vh;
+				background-image: url("../img/min-video-6.jpg");
+				background-repeat: no-repeat;
+			    background-size: 120%;
+			    background-position: center top;
+			    overflow:hidden;
+					    #fondo4{
+							background:rgba(32,23,3,0.6);
+							width:100%;
+							height:50vh;
+							text-align: center;
+							color:#fff;
+							font-family: 'Raleway', sans-serif;
+							
+							.text{
+								text-align:center;
+								margin-top: 20%;
+
+							    p{
+							    	font-family: 'Raleway', sans-serif;
+							    	font-size:20px;
+							    }
+
+							}
+						}
+			      }
 		}
     //////////////////////////////////5////////////////////////////////////
 
 	#section-5{
-
+           margin-top:-28%;
 			#imagen{
-				width: 99%;
+				width: 97.8%;
 				height: 100vh;
 				background-image: url("../img/parallax-2.jpg");
 				background-repeat: no-repeat;
 			    background-size: cover;
-			    background-position: center top;
-			    margin-left:0.3%;
-			   
-			   
-			}
+			    background-position: center;
+			    margin-left:1.2%;
+			    overflow:hidden	;
+			    position:absolute;
+
 			#caption{
 				
 				width:100%;
 				height:100vh;
 				text-align: center;
 				color:#fff;
-				margin-top:2.5%;
+
 				font-size:20px;
 				font-family: 'Raleway', sans-serif;
 				
@@ -151,11 +244,15 @@ Código Hexadecimal gris footer: #3B3B3B
 						font-size:60px;
 						margin-top:20%;
 					    }
-				 }
-			 }
+				  }
+			   }  
+			   
+			}
+
 		}
 		//////////////////////////////////6////////////////////////////////////
 		#section-6{
+			margin-top:30%;
               .text{
               	// margin-top:16%;
               	text-align:center;
@@ -269,6 +366,22 @@ Código Hexadecimal gris footer: #3B3B3B
 				margin-top:5%;
 				font-family:cursive;
 			}
-		}		
+		 }
+
+
+		@media (max-width: 1000px)
+		{
+			
+			
+			#section-5{ margin-top:8%;}
+			#section-6{ margin-top:160.2%;}
+			#section-2 {
+
+				#text{ margin-left:-60%;}
+				} 
+
+			
+			}
+
 		
 	

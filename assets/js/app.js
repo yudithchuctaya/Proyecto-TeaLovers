@@ -22,3 +22,18 @@ window.addEventListener("scroll", function(){
 	}
 	lastScrollTop=currentScroll;
 }, false);
+
+////////////////////////////////////////////////////////////////////////////
+
+
+$(document).ready(function(){
+	$("#boton0").click(function(){
+  		$("body").animate({backgroundPositionX:"0px", backgroundPositionY:"0px"});
+    });
+	$("#boton1").click(function(){
+          $("body").animate({backgroundPositionX:"500px"},5000);
+    });
+	$("#boton2").click(function(){
+    	$("body").animate({backgroundPositionY:"300px"},5000,function() {alert ('Efecto terminado!');});
+    });
+});
